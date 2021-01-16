@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Application</title>
+
+    
+</head>
+<script>
+   
+    function image1() {
+       document.getElementById('pic1').style.visibility="visible";
+    }
+    function image2() {
+        document.getElementById('pic2').style.visibility="visible";
+    }
+        
+    function image3() {
+        document.getElementById('pic3').style.visibility="visible";
+    }
+        
+    function image4() {
+        document.getElementById('pic4').style.visibility="visible";
+    }
+    
+   
+
+
+</script>
+
+<body>
+
+    
+    <div class="float-container">
+        <div class="child1"></div>
+        <div class="child2">Movies</div>
+       
+            <div class="float-child"><img id="pic1" src="m1.jpg" height="342" width="209" style="visibility:hidden"/></div>
+            <div class="float-child"><img id="pic2" src="m2.jpg" height="342" width="209" style="visibility:hidden"/></div>
+            
+            <div class="float-child"><img id="pic3" src="m3.jpg" height="342" width="209" style="visibility:hidden"/></div>
+            <div class="float-child"><img id="pic4" src="m4.jpg" height="342" width="209" style="visibility:hidden"/></div>
+            <div class="float-child3"></div>
+    
+   
+    <button onclick="image1();"; class="float-image">Image-1</button>
+    <button onclick="image2();"; class="float-image">Image-2</button>
+    <button onclick="image3();"; class="float-image">Image-3</button>
+    <button onclick="image4();"; class="float-image">Image-4</button>
+    
+   </div>
+   
+    
+</body>
+
+</html>
